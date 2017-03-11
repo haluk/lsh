@@ -5,10 +5,6 @@ package util
   */
 object Math {
 
-  def sieve(s: Stream[Int]): Stream[Int] = {
-    s.head #:: sieve(s.tail.filter(_ % s.head != 0))
-  }
-
   def hashFunction(p: Int): (Int, Int) = {
     val r = scala.util.Random
     val a = r.nextInt(p)

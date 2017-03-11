@@ -1,30 +1,45 @@
 [0m[[0mdebug[0m] [0m[naha] [0m
 [0m[[0mdebug[0m] [0m[naha] Initial source changes: [0m
 [0m[[0mdebug[0m] [0m[naha] 	removed:Set()[0m
-[0m[[0mdebug[0m] [0m[naha] 	added: Set(/home/hd/IdeaProjects/lsh/src/main/scala/Application.scala, /home/hd/IdeaProjects/lsh/src/main/scala/util/Math.scala, /home/hd/IdeaProjects/lsh/src/main/scala/distance/Distance.scala, /home/hd/IdeaProjects/lsh/src/main/scala/LSH.scala, /home/hd/IdeaProjects/lsh/src/main/scala/preprocess/Preprocess.scala, /home/hd/IdeaProjects/lsh/src/main/scala/distance/EuclideanDistance.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] 	added: Set(/home/hd/IdeaProjects/lsh/src/main/scala/LSH.scala, /home/hd/IdeaProjects/lsh/src/main/scala/Application.scala, /home/hd/IdeaProjects/lsh/src/main/scala/preprocess/Preprocess.scala, /home/hd/IdeaProjects/lsh/src/main/scala/util/Math.scala)[0m
 [0m[[0mdebug[0m] [0m[naha] 	modified: Set()[0m
 [0m[[0mdebug[0m] [0m[naha] Invalidated products: Set()[0m
 [0m[[0mdebug[0m] [0m[naha] External API changes: API Changes: Set()[0m
 [0m[[0mdebug[0m] [0m[naha] Modified binary dependencies: Set()[0m
-[0m[[0mdebug[0m] [0m[naha] Initial directly invalidated sources: Set(/home/hd/IdeaProjects/lsh/src/main/scala/Application.scala, /home/hd/IdeaProjects/lsh/src/main/scala/util/Math.scala, /home/hd/IdeaProjects/lsh/src/main/scala/distance/Distance.scala, /home/hd/IdeaProjects/lsh/src/main/scala/LSH.scala, /home/hd/IdeaProjects/lsh/src/main/scala/preprocess/Preprocess.scala, /home/hd/IdeaProjects/lsh/src/main/scala/distance/EuclideanDistance.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] Initial directly invalidated sources: Set(/home/hd/IdeaProjects/lsh/src/main/scala/LSH.scala, /home/hd/IdeaProjects/lsh/src/main/scala/Application.scala, /home/hd/IdeaProjects/lsh/src/main/scala/preprocess/Preprocess.scala, /home/hd/IdeaProjects/lsh/src/main/scala/util/Math.scala)[0m
 [0m[[0mdebug[0m] [0m[naha] [0m
 [0m[[0mdebug[0m] [0m[naha] Sources indirectly invalidated by:[0m
 [0m[[0mdebug[0m] [0m[naha] 	product: Set()[0m
 [0m[[0mdebug[0m] [0m[naha] 	binary dep: Set()[0m
 [0m[[0mdebug[0m] [0m[naha] 	external source: Set()[0m
-[0m[[0mdebug[0m] [0mAll initially invalidated sources: Set(/home/hd/IdeaProjects/lsh/src/main/scala/Application.scala, /home/hd/IdeaProjects/lsh/src/main/scala/util/Math.scala, /home/hd/IdeaProjects/lsh/src/main/scala/distance/Distance.scala, /home/hd/IdeaProjects/lsh/src/main/scala/LSH.scala, /home/hd/IdeaProjects/lsh/src/main/scala/preprocess/Preprocess.scala, /home/hd/IdeaProjects/lsh/src/main/scala/distance/EuclideanDistance.scala)[0m
-[0m[[0mdebug[0m] [0m[naha] Initial set of included nodes: Set(/home/hd/IdeaProjects/lsh/src/main/scala/Application.scala, /home/hd/IdeaProjects/lsh/src/main/scala/util/Math.scala, /home/hd/IdeaProjects/lsh/src/main/scala/distance/Distance.scala, /home/hd/IdeaProjects/lsh/src/main/scala/LSH.scala, /home/hd/IdeaProjects/lsh/src/main/scala/preprocess/Preprocess.scala, /home/hd/IdeaProjects/lsh/src/main/scala/distance/EuclideanDistance.scala)[0m
-[0m[[0mdebug[0m] [0m[naha] Recompiling all 6 sources: invalidated sources (6) exceeded 50.0% of all sources[0m
-[0m[[0minfo[0m] [0mCompiling 6 Scala sources to /home/hd/IdeaProjects/lsh/target/scala-2.11/classes...[0m
+[0m[[0mdebug[0m] [0mAll initially invalidated sources: Set(/home/hd/IdeaProjects/lsh/src/main/scala/LSH.scala, /home/hd/IdeaProjects/lsh/src/main/scala/Application.scala, /home/hd/IdeaProjects/lsh/src/main/scala/preprocess/Preprocess.scala, /home/hd/IdeaProjects/lsh/src/main/scala/util/Math.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] Initial set of included nodes: Set(/home/hd/IdeaProjects/lsh/src/main/scala/LSH.scala, /home/hd/IdeaProjects/lsh/src/main/scala/Application.scala, /home/hd/IdeaProjects/lsh/src/main/scala/preprocess/Preprocess.scala, /home/hd/IdeaProjects/lsh/src/main/scala/util/Math.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] Recompiling all 4 sources: invalidated sources (4) exceeded 50.0% of all sources[0m
+[0m[[0minfo[0m] [0mCompiling 4 Scala sources to /home/hd/IdeaProjects/lsh/target/scala-2.11/classes...[0m
 [0m[[0mdebug[0m] [0mGetting org.scala-sbt:compiler-interface:0.13.13:component from component compiler for Scala 2.11.6[0m
 [0m[[0mdebug[0m] [0mGetting org.scala-sbt:compiler-interface:0.13.13:component from component compiler for Scala 2.11.6[0m
-[0m[[0mdebug[0m] [0mRunning cached compiler 5fac932c, interfacing (CompilerInterface) with Scala compiler version 2.11.6[0m
+[0m[[0mdebug[0m] [0mRunning cached compiler 4ee917b2, interfacing (CompilerInterface) with Scala compiler version 2.11.6[0m
 [0m[[0mdebug[0m] [0mCalling Scala compiler with arguments  (CompilerInterface):[0m
 [0m[[0mdebug[0m] [0m	-bootclasspath[0m
 [0m[[0mdebug[0m] [0m	/usr/lib/jvm/java-8-oracle/jre/lib/resources.jar:/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar:/usr/lib/jvm/java-8-oracle/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jsse.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jce.jar:/usr/lib/jvm/java-8-oracle/jre/lib/charsets.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jfr.jar:/usr/lib/jvm/java-8-oracle/jre/classes:/home/hd/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.6.jar[0m
 [0m[[0mdebug[0m] [0m	-classpath[0m
 [0m[[0mdebug[0m] [0m	/home/hd/IdeaProjects/lsh/target/scala-2.11/classes[0m
-[0m[[0mdebug[0m] [0mScala compilation took 7.495797728 s[0m
+[0m[[0mdebug[0m] [0mScala compilation took 7.227448167 s[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidating /home/hd/IdeaProjects/lsh/src/main/scala/LSH.scala...[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidating (transitively) by inheritance from /home/hd/IdeaProjects/lsh/src/main/scala/LSH.scala...[0m
+[0m[[0mdebug[0m] [0m[naha] Initial set of included nodes: Set(/home/hd/IdeaProjects/lsh/src/main/scala/LSH.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidated by transitive inheritance dependency: Set(/home/hd/IdeaProjects/lsh/src/main/scala/LSH.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] The /home/hd/IdeaProjects/lsh/src/main/scala/LSH.scala source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m[naha] 	notify, wait, $asInstanceOf, LSH, equals, constructShingles, asInstanceOf, synchronized, $isInstanceOf, buildCandidatePairsAdjMatrix, generateRowHashValues, notifyAll, isInstanceOf, <init>, generateSignatureMatrix, ==, clone, getShingles, toString, !=, getClass, lshBandedMatrix, ne, occurrenceMatrix, eq, ##, finalize, hashCode.[0m
+[0m[[0mdebug[0m] [0m[naha] All member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0m[naha] The following modified names cause invalidation of /home/hd/IdeaProjects/lsh/src/main/scala/Application.scala: Set(LSH, asInstanceOf, buildCandidatePairsAdjMatrix, generateRowHashValues, <init>, generateSignatureMatrix, getShingles, !=, getClass, lshBandedMatrix, occurrenceMatrix)[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidating /home/hd/IdeaProjects/lsh/src/main/scala/Application.scala...[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidating (transitively) by inheritance from /home/hd/IdeaProjects/lsh/src/main/scala/Application.scala...[0m
+[0m[[0mdebug[0m] [0m[naha] Initial set of included nodes: Set(/home/hd/IdeaProjects/lsh/src/main/scala/Application.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidated by transitive inheritance dependency: Set(/home/hd/IdeaProjects/lsh/src/main/scala/Application.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] The /home/hd/IdeaProjects/lsh/src/main/scala/Application.scala source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m[naha] 	notify, wait, $asInstanceOf, equals, asInstanceOf, synchronized, $isInstanceOf, main, notifyAll, formattedResult, isInstanceOf, ==, clone, Application, toString, !=, getClass, LOG, ne, eq, ##, finalize, hashCode.[0m
+[0m[[0mdebug[0m] [0m[naha] All member reference dependencies will be considered within this context.[0m
 [0m[[0mdebug[0m] [0m[naha] Invalidating /home/hd/IdeaProjects/lsh/src/main/scala/preprocess/Preprocess.scala...[0m
 [0m[[0mdebug[0m] [0m[naha] Invalidating (transitively) by inheritance from /home/hd/IdeaProjects/lsh/src/main/scala/preprocess/Preprocess.scala...[0m
 [0m[[0mdebug[0m] [0m[naha] Initial set of included nodes: Set(/home/hd/IdeaProjects/lsh/src/main/scala/preprocess/Preprocess.scala)[0m
@@ -33,48 +48,15 @@
 [0m[[0mdebug[0m] [0m[naha] 	notify, removeStopWord, wait, $asInstanceOf, equals, process, asInstanceOf, replaceAllWhiteSpace, synchronized, toLowerCase, $isInstanceOf, Preprocess, notifyAll, isInstanceOf, <init>, ==, clone, toString, !=, getClass, ne, eq, removePunctuationMarks, ##, finalize, hashCode.[0m
 [0m[[0mdebug[0m] [0m[naha] All member reference dependencies will be considered within this context.[0m
 [0m[[0mdebug[0m] [0m[naha] The following modified names cause invalidation of /home/hd/IdeaProjects/lsh/src/main/scala/LSH.scala: Set(process, Preprocess, <init>, ==, !=, hashCode)[0m
-[0m[[0mdebug[0m] [0m[naha] The following modified names cause invalidation of /home/hd/IdeaProjects/lsh/src/main/scala/Application.scala: Set(Preprocess, <init>, getClass)[0m
-[0m[[0mdebug[0m] [0m[naha] Invalidating /home/hd/IdeaProjects/lsh/src/main/scala/distance/Distance.scala...[0m
-[0m[[0mdebug[0m] [0m[naha] Invalidating (transitively) by inheritance from /home/hd/IdeaProjects/lsh/src/main/scala/distance/Distance.scala...[0m
-[0m[[0mdebug[0m] [0m[naha] Initial set of included nodes: Set(/home/hd/IdeaProjects/lsh/src/main/scala/distance/Distance.scala)[0m
-[0m[[0mdebug[0m] [0m[naha] Including /home/hd/IdeaProjects/lsh/src/main/scala/distance/EuclideanDistance.scala by /home/hd/IdeaProjects/lsh/src/main/scala/distance/Distance.scala[0m
-[0m[[0mdebug[0m] [0m[naha] Invalidated by transitive inheritance dependency: Set(/home/hd/IdeaProjects/lsh/src/main/scala/distance/EuclideanDistance.scala, /home/hd/IdeaProjects/lsh/src/main/scala/distance/Distance.scala)[0m
-[0m[[0mdebug[0m] [0m[naha] The /home/hd/IdeaProjects/lsh/src/main/scala/distance/Distance.scala source file has the following regular definitions changed:[0m
-[0m[[0mdebug[0m] [0m[naha] 	notify, wait, $asInstanceOf, equals, asInstanceOf, synchronized, $isInstanceOf, computeDistance, notifyAll, isInstanceOf, <init>, ==, clone, toString, !=, getClass, Distance, ne, eq, ##, finalize, hashCode.[0m
-[0m[[0mdebug[0m] [0m[naha] All member reference dependencies will be considered within this context.[0m
-[0m[[0mdebug[0m] [0m[naha] The following modified names cause invalidation of /home/hd/IdeaProjects/lsh/src/main/scala/Application.scala: Set(<init>, getClass)[0m
-[0m[[0mdebug[0m] [0m[naha] The following modified names cause invalidation of /home/hd/IdeaProjects/lsh/src/main/scala/distance/EuclideanDistance.scala: Set(<init>, Distance, ne)[0m
-[0m[[0mdebug[0m] [0m[naha] Invalidating /home/hd/IdeaProjects/lsh/src/main/scala/Application.scala...[0m
-[0m[[0mdebug[0m] [0m[naha] Invalidating (transitively) by inheritance from /home/hd/IdeaProjects/lsh/src/main/scala/Application.scala...[0m
-[0m[[0mdebug[0m] [0m[naha] Initial set of included nodes: Set(/home/hd/IdeaProjects/lsh/src/main/scala/Application.scala)[0m
-[0m[[0mdebug[0m] [0m[naha] Invalidated by transitive inheritance dependency: Set(/home/hd/IdeaProjects/lsh/src/main/scala/Application.scala)[0m
-[0m[[0mdebug[0m] [0m[naha] The /home/hd/IdeaProjects/lsh/src/main/scala/Application.scala source file has the following regular definitions changed:[0m
-[0m[[0mdebug[0m] [0m[naha] 	notify, wait, $asInstanceOf, equals, asInstanceOf, synchronized, $isInstanceOf, main, notifyAll, formattedResult, isInstanceOf, ==, clone, Application, toString, !=, getClass, LOG, ne, eq, ##, finalize, hashCode.[0m
-[0m[[0mdebug[0m] [0m[naha] All member reference dependencies will be considered within this context.[0m
-[0m[[0mdebug[0m] [0m[naha] Invalidating /home/hd/IdeaProjects/lsh/src/main/scala/LSH.scala...[0m
-[0m[[0mdebug[0m] [0m[naha] Invalidating (transitively) by inheritance from /home/hd/IdeaProjects/lsh/src/main/scala/LSH.scala...[0m
-[0m[[0mdebug[0m] [0m[naha] Initial set of included nodes: Set(/home/hd/IdeaProjects/lsh/src/main/scala/LSH.scala)[0m
-[0m[[0mdebug[0m] [0m[naha] Invalidated by transitive inheritance dependency: Set(/home/hd/IdeaProjects/lsh/src/main/scala/LSH.scala)[0m
-[0m[[0mdebug[0m] [0m[naha] The /home/hd/IdeaProjects/lsh/src/main/scala/LSH.scala source file has the following regular definitions changed:[0m
-[0m[[0mdebug[0m] [0m[naha] 	notify, wait, $asInstanceOf, LSH, equals, constructShingles, displayCandidatePairs, asInstanceOf, synchronized, $isInstanceOf, generateRowHashValues, notifyAll, isInstanceOf, <init>, generateSignatureMatrix, ==, clone, getShingles, toString, !=, getClass, lshBandedMatrix, ne, occurrenceMatrix, eq, ##, finalize, hashCode, findPrime.[0m
-[0m[[0mdebug[0m] [0m[naha] All member reference dependencies will be considered within this context.[0m
-[0m[[0mdebug[0m] [0m[naha] The following modified names cause invalidation of /home/hd/IdeaProjects/lsh/src/main/scala/Application.scala: Set(LSH, displayCandidatePairs, generateRowHashValues, <init>, generateSignatureMatrix, getShingles, getClass, lshBandedMatrix, occurrenceMatrix)[0m
+[0m[[0mdebug[0m] [0m[naha] The following modified names cause invalidation of /home/hd/IdeaProjects/lsh/src/main/scala/Application.scala: Set(asInstanceOf, Preprocess, <init>, !=, getClass)[0m
 [0m[[0mdebug[0m] [0m[naha] Invalidating /home/hd/IdeaProjects/lsh/src/main/scala/util/Math.scala...[0m
 [0m[[0mdebug[0m] [0m[naha] Invalidating (transitively) by inheritance from /home/hd/IdeaProjects/lsh/src/main/scala/util/Math.scala...[0m
 [0m[[0mdebug[0m] [0m[naha] Initial set of included nodes: Set(/home/hd/IdeaProjects/lsh/src/main/scala/util/Math.scala)[0m
 [0m[[0mdebug[0m] [0m[naha] Invalidated by transitive inheritance dependency: Set(/home/hd/IdeaProjects/lsh/src/main/scala/util/Math.scala)[0m
 [0m[[0mdebug[0m] [0m[naha] The /home/hd/IdeaProjects/lsh/src/main/scala/util/Math.scala source file has the following regular definitions changed:[0m
-[0m[[0mdebug[0m] [0m[naha] 	notify, wait, $asInstanceOf, equals, sieve, asInstanceOf, synchronized, $isInstanceOf, notifyAll, isInstanceOf, Math, ==, clone, toString, !=, jaccardSimilarity, getClass, hashFunction, ne, eq, ##, finalize, hashCode.[0m
+[0m[[0mdebug[0m] [0m[naha] 	notify, wait, $asInstanceOf, equals, asInstanceOf, synchronized, $isInstanceOf, notifyAll, isInstanceOf, Math, ==, clone, toString, !=, jaccardSimilarity, getClass, hashFunction, ne, eq, ##, finalize, hashCode.[0m
 [0m[[0mdebug[0m] [0m[naha] All member reference dependencies will be considered within this context.[0m
-[0m[[0mdebug[0m] [0m[naha] The following modified names cause invalidation of /home/hd/IdeaProjects/lsh/src/main/scala/LSH.scala: Set(sieve, Math, ==, !=, jaccardSimilarity, hashFunction, hashCode)[0m
-[0m[[0mdebug[0m] [0m[naha] Invalidating /home/hd/IdeaProjects/lsh/src/main/scala/distance/EuclideanDistance.scala...[0m
-[0m[[0mdebug[0m] [0m[naha] Invalidating (transitively) by inheritance from /home/hd/IdeaProjects/lsh/src/main/scala/distance/EuclideanDistance.scala...[0m
-[0m[[0mdebug[0m] [0m[naha] Initial set of included nodes: Set(/home/hd/IdeaProjects/lsh/src/main/scala/distance/EuclideanDistance.scala)[0m
-[0m[[0mdebug[0m] [0m[naha] Invalidated by transitive inheritance dependency: Set(/home/hd/IdeaProjects/lsh/src/main/scala/distance/EuclideanDistance.scala)[0m
-[0m[[0mdebug[0m] [0m[naha] The /home/hd/IdeaProjects/lsh/src/main/scala/distance/EuclideanDistance.scala source file has the following regular definitions changed:[0m
-[0m[[0mdebug[0m] [0m[naha] 	notify, wait, $asInstanceOf, equals, EuclideanDistance, asInstanceOf, synchronized, $isInstanceOf, computeDistance, notifyAll, isInstanceOf, <init>, ==, clone, toString, !=, getClass, ne, eq, ##, finalize, hashCode.[0m
-[0m[[0mdebug[0m] [0m[naha] All member reference dependencies will be considered within this context.[0m
-[0m[[0mdebug[0m] [0m[naha] The following modified names cause invalidation of /home/hd/IdeaProjects/lsh/src/main/scala/Application.scala: Set(EuclideanDistance, <init>, getClass)[0m
+[0m[[0mdebug[0m] [0m[naha] The following modified names cause invalidation of /home/hd/IdeaProjects/lsh/src/main/scala/LSH.scala: Set(Math, ==, !=, jaccardSimilarity, hashFunction, hashCode)[0m
 [0m[[0mdebug[0m] [0m[naha] New invalidations:[0m
 [0m[[0mdebug[0m] [0m[naha] 	Set()[0m
 [0m[[0mdebug[0m] [0m[naha] Initial set of included nodes: Set()[0m

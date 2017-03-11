@@ -301,7 +301,7 @@
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.11;1.0.3!scala-xml_2.11.jar(bundle)[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang.modules#scala-parser-combinators_2.11;1.0.3!scala-parser-combinators_2.11.jar(bundle)[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] jline#jline;2.12.1!jline.jar[0m
-[0m[[0mdebug[0m] [0m:: resolution report :: resolve 276ms :: artifacts dl 10ms[0m
+[0m[[0mdebug[0m] [0m:: resolution report :: resolve 363ms :: artifacts dl 43ms[0m
 [0m[[0mdebug[0m] [0m	report for default#lsh_2.11;1.0 compile produced in /home/hd/IdeaProjects/lsh/target/resolution-cache/reports/default-lsh_2.11-compile.xml[0m
 [0m[[0mdebug[0m] [0m	report for default#lsh_2.11;1.0 runtime produced in /home/hd/IdeaProjects/lsh/target/resolution-cache/reports/default-lsh_2.11-runtime.xml[0m
 [0m[[0mdebug[0m] [0m	report for default#lsh_2.11;1.0 test produced in /home/hd/IdeaProjects/lsh/target/resolution-cache/reports/default-lsh_2.11-test.xml[0m
@@ -315,5 +315,5 @@
 [0m[[0mdebug[0m] [0m	report for default#lsh_2.11;1.0 docs produced in /home/hd/IdeaProjects/lsh/target/resolution-cache/reports/default-lsh_2.11-docs.xml[0m
 [0m[[0mdebug[0m] [0m	report for default#lsh_2.11;1.0 pom produced in /home/hd/IdeaProjects/lsh/target/resolution-cache/reports/default-lsh_2.11-pom.xml[0m
 [0m[[0mdebug[0m] [0m	report for default#lsh_2.11;1.0 scala-tool produced in /home/hd/IdeaProjects/lsh/target/resolution-cache/reports/default-lsh_2.11-scala-tool.xml[0m
-[0m[[0mdebug[0m] [0m	resolve done (276ms resolve - 10ms download)[0m
+[0m[[0mdebug[0m] [0m	resolve done (363ms resolve - 43ms download)[0m
 [0m[[0minfo[0m] [0mDone updating.[0m
