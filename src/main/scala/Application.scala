@@ -15,7 +15,7 @@ object Application {
 
   def formattedResult(result: ListBuffer[(String, String, Double)]): Unit = {
     println("%20s\t%20s\t%20s".format("Doc Pair-1", "Doc-Pair-2", "Jaccard Similarity"))
-    result.foreach(i =>
+    result.sortWith(_._3 > _._3).foreach(i =>
       println("%20s\t%20s\t%20s".format(i._1, i._2, i._3))
     )
   }
@@ -35,10 +35,11 @@ object Application {
     val r = properties.getProperty("rows.in.bands").toInt
     val n = b*r
     val p = properties.getProperty("prime.number").toInt
+    val simThr = properties.getProperty("sim.thr").toDouble
 
 
     LOG.info("Universal set is sorting ...")
-    val universalSet = SortedSet[String]() ++ docShinglePair.map(x => x._2).flatten.toSet // n
+    val universalSet = SortedSet[String]() ++ docShinglePair.map(x => x._2).flatten.toSet
     LOG.info("Universal set size: " + universalSet.size)
     LOG.info("Used prime number: " + p)
     LOG.info("Number of bands: " + b)
@@ -77,8 +78,14 @@ object Application {
     LOG.info("Calculating candidate pairs is complete!")
 
     LOG.info("Building candidate pairs adjacency matrix ...")
-    val result = lsh.buildCandidatePairsAdjMatrix(docShinglePair.map(x => x._1), candidatePairs, occurrenceMatrix)
+    val result = lsh.buildCandidatePairsAdjMatrix(docShinglePair.map(x => x._1), candidatePairs, occurrenceMatrix, simThr)
     LOG.info("Candidate pairs adjacency matrix is built!")
+
+    LOG.info("Serializing candidate pairs adjacency matrix ...")
+    val candPairoos = new ObjectOutputStream(new FileOutputStream("candidate_pairs_gre0.85.dat"))
+    candPairoos.writeObject(result)
+    candPairoos.close()
+    LOG.info("Serializing is complete!")
 
     LOG.info("Reporting results ...")
     formattedResult(result)

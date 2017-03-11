@@ -90,7 +90,7 @@ class LSH {
     return candidatePairs
   }
 
-  def buildCandidatePairsAdjMatrix(docNames: List[String], candidatePairs: Array[Array[Int]], occurenceMatrix: Array[Array[Int]]): ListBuffer[(String, String, Double)] = {
+  def buildCandidatePairsAdjMatrix(docNames: List[String], candidatePairs: Array[Array[Int]], occurenceMatrix: Array[Array[Int]], thr: Double): ListBuffer[(String, String, Double)] = {
     val result: ListBuffer[(String, String, Double)] = ListBuffer()
     (0 until candidatePairs.size).par.foreach { i =>
       for (j <- (0 until i)) {
@@ -98,11 +98,14 @@ class LSH {
           if (candidatePairs(i)(j) == 1) {
             val pairI = occurenceMatrix.map(_ (i))
             val pairJ = occurenceMatrix.map(_ (j))
-            result += ((docNames(i), docNames(j), util.Math.jaccardSimilarity(pairI, pairJ)))
+            val sim = util.Math.jaccardSimilarity(pairI, pairJ)
+            if (sim >= thr)
+            result += ((docNames(i), docNames(j), sim))
           }
         }
       }
     }
-    return result.sortWith(_._3 > _._3)
+
+    return result
   }
 }
