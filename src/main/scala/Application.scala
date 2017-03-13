@@ -15,7 +15,7 @@ object Application {
 
   def formattedResult(result: ListBuffer[(String, String, Double)]): Unit = {
     println("%20s\t%20s\t%20s".format("Doc Pair-1", "Doc-Pair-2", "Jaccard Similarity"))
-    result.sortWith(_._3 > _._3).foreach(i =>
+    result.foreach(i =>
       println("%20s\t%20s\t%20s".format(i._1, i._2, i._3))
     )
   }
